@@ -1,0 +1,10 @@
+# Taken from https://github.com/BretFisher/jekyll-serve (MIT License)
+version: '2.4'
+
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - ./website:/site
+    ports:
+      - '4000:4000'

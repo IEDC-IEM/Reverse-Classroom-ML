@@ -1,0 +1,12 @@
+.gallery{
+ display: inline-flex;
+  width: 330px;
+  height: 220px;
+  margin: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.218);
+  img{
+        border-radius: 5px;
+  }
+}
