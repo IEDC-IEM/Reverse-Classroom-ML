@@ -18,7 +18,7 @@ tagline: ''
 description: ''
 author: IEDC ML Team
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://iedc-iem.github.io/Reverse-Classroom-ML/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor/bundle", "vendor/cache", "vendor/gems", "vendor/ruby",
           "docker-compose.yml", "Procfile"]
 
