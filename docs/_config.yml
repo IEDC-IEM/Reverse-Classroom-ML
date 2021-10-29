@@ -42,28 +42,28 @@ collections:
 # Default layouts for each collection type
 defaults:
   - scope:
-      path: 'docs'
+      path: '/docs'
       type: staffers
     values:
       layout: staffer
       subpath: '/assets/staff/'
   - scope:
-      path: 'docs'
+      path: '/docs'
       type: courses
     values:
       layout: course
   - scope:
-      path: 'docs'
+      path: '/docs'
       type: modules
     values:
       layout: module
   - scope:
-      path: ''
+      path: '/docs'
       type: schedules
     values:
       layout: schedule
   - scope:
-      path: 'docs'
+      path: '/docs'
       type: announcements
     values:
       layout: announcement
