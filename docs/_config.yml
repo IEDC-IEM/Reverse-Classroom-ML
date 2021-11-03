@@ -32,13 +32,16 @@ aux_links:
   IEDC IEM:
     - 'http://iedc.iemecell.com'
 footer_content:
+aux_links_new_tab: true
+footer_content: 'Deeptendu Santra &copy; 2021 <a rel="license" href="https://github.com/IEDC-IEM/Reverse-Classroom-ML/blob/main/LICENSE">Modified M.I.T. License</a>'
 
 # Collections for website data
 collections:
   staffers:
   modules:
-  schedules:
-  announcements:
+    lessons:
+    permalink: '/:path/'
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -53,14 +56,13 @@ defaults:
       layout: module
   - scope:
       path: ''
-      type: schedules
+      type: lessons
     values:
-      layout: schedule
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
+      layout: page
+# just_the_docs:
+#   collections:
+#     lessons:
+#       name: Lessons
 
 compress_html:
   clippings: all
@@ -72,3 +74,4 @@ compress_html:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
