@@ -17,7 +17,7 @@ description: >-
 ---
 
 ## Overview
-We aim is to foster curiosity and inculcate a research-based mindset among our peers, which will help them explore and dive into the depths of Machine Learning while imbibing the concepts and implementing them efficiently. 
+We aim to foster curiosity and inculcate a research-based mindset among our peers, which will help them explore and dive into the depths of Machine Learning while imbibing the concepts and implementing them efficiently. 
 
 ## What is a Reversed Classroom?
 The concept of a Reversed Classroom aligns perfectly with our objective. A reversed classroom is one where most of the learning happens outside the classroom and the teachers are more like guides, who shows a path and the students are encouraged to explore the length and breadth of the topics discussed in class from the comfort of their homes. This type of learning process encourages the students to develop curiosity and quench it on their own, using resources provided by the teachers or discovered independently.
