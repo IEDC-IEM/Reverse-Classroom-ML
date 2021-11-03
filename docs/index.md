@@ -12,16 +12,10 @@ description: >-
 
 {:.no_toc}
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ---
 
-## OVERVIEW
+## Schedule
 
-## A BIT OF HISTORY
-
-## COURSE STRUCTURE
+{% for module in site.modules %}
+{{ module }}
+{% endfor %}
