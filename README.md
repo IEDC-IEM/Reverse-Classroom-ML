@@ -8,5 +8,4 @@ People who developed this website don't care about Jekyll, or Ruby but computer 
 1. Clone the repo.
 2. Install docker and docker-compose.
 3. `cd` into the repository and run `docker compose up`.
-4. Open localhost:4000 in your browser.
-
+4. Open [localhost:4000/Reverse-Classroom-ML/](http://0.0.0.0:4000/Reverse-Classroom-ML/) in your browser.
