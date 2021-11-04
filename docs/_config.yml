@@ -16,14 +16,13 @@
 title: IEDC Reverse Classroom for ML
 tagline: ''
 description: ''
-author: IEDC ML Team
+author: Kevin Lin
 baseurl: '/Reverse-Classroom-ML' # the subpath of your site, e.g. /blog
 url: 'https://iedc-iem.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor/bundle", "vendor/cache", "vendor/gems", "vendor/ruby",
-          "docker-compose.yml", "Procfile"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "docker-compose.yml"]
 
 # Theme settings
-remote_theme: pmarsceill/just-the-docs@v0.3.3
+remote_theme: pdmosses/just-the-docs@pages-and-collections
 color_scheme: light
 search_enabled: true
 heading_anchors: true
@@ -31,14 +30,19 @@ permalink: pretty
 aux_links:
   IEDC IEM:
     - 'http://iedc.iemecell.com'
-footer_content:
+aux_links_new_tab: true
+footer_content: 'Deeptendu Santra &copy; 2021 <a rel="license" href="https://github.com/IEDC-IEM/Reverse-Classroom-ML/blob/main/LICENSE">Modified M.I.T. License</a>'
 
 # Collections for website data
 collections:
   staffers:
   modules:
-  schedules:
-  announcements:
+  # slides:
+  #   permalink: '/:path/'
+  #   output: true
+  lessons:
+    permalink: '/:path/'
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -46,12 +50,6 @@ defaults:
       type: staffers
     values:
       layout: staffer
-      subpath: '/assets/staff/'
-  - scope:
-      path: ''
-      type: courses
-    values:
-      layout: course
   - scope:
       path: ''
       type: modules
@@ -59,14 +57,14 @@ defaults:
       layout: module
   - scope:
       path: ''
-      type: schedules
+      type: lessons
     values:
-      layout: schedule
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
+      layout: page
+# Configure collections for Just the Docs
+just_the_docs:
+  collections:
+    lessons:
+      name: Topics
 
 compress_html:
   clippings: all
@@ -78,3 +76,4 @@ compress_html:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
