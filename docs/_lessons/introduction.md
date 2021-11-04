@@ -2,7 +2,7 @@
 title: Pre-Requisites
 nav_order: 1
 has_children: true
-has_toc: true
+has_toc: false
 summary: Due Oct 31
 ---
 

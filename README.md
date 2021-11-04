@@ -1,6 +1,6 @@
 # Reverse Classroom for ML 2021
 
-Website for a bi-weekly discussion group between four sophomores and some researchers from IEDC. Does not sound convincing? Checkout the [website](https://iedc-iem.github.io/Reverse-Classroom-ML/)
+Website for a bi-weekly discussion group between four sophomores and some researchers from IEDC. Does not sound convincing? Checkout the [website](https://iedc-iem.github.io/Reverse-Classroom-ML/).
 
 ## Local development
 
