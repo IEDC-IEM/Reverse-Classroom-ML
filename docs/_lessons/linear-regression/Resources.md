@@ -11,6 +11,7 @@ nav_order: 17
 
 - [Statquest introduction to LR](https://youtu.be/nk2CQITm_eo)
 - [Statquest bias and variance](https://youtu.be/EuBBz3bI-aA)
+
 ## Rigorous and descriptive
 
 - [Linear Regression by Ben](https://youtube.com/playlist?list=PL1bwDoT7-GRZJcSHuzAOxIJqYhRc_df1n)
